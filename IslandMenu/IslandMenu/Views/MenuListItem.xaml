@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:translate="clr-namespace:IslandMenu.Resources;assembly=IslandMenu"
+             x:Class="IslandMenu.Views.MenuListItem">
+  <ContentView.Content>
+    <Grid Style="{DynamicResource MessageBox}">
+      <StackLayout Padding="0,5">
+        <Label Text="{Binding Name}" Style="{DynamicResource NameStyle}"/>
+        <Label Text="{Binding Description}" Style="{DynamicResource DepartmentStyle}"/>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="{translate:Translate Price}" Style="{DynamicResource DepartmentStyle}"/>
+          <Label Text="{Binding PriceInEuros, StringFormat='{0:0.00}'}" Style="{DynamicResource DepartmentStyle}"/>
+          <Label Text="{translate:Translate EUR}" Style="{DynamicResource DepartmentStyle}"/>
+        </StackLayout>
+        <BoxView Style="{DynamicResource ShadowStyle}"></BoxView>
+      </StackLayout>
+    </Grid>
+  </ContentView.Content>
+</ContentView>

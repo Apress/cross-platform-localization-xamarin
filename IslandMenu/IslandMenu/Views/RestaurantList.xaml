@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:IslandMenu.Views;assembly=IslandMenu"
+             xmlns:translate="clr-namespace:IslandMenu.Resources;assembly=IslandMenu"
+             Title="{translate:Translate AppName}"
+             x:Class="IslandMenu.Views.RestaurantList">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <translate:ImageResourceConverter x:Key="imageResourceCvt" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <ContentPage.Content>
+    <Grid>
+      <Image Opacity="0.5"
+				   x:Name="img"
+				   Source="{Binding ImageUrl, Converter={StaticResource imageResourceCvt}}"
+				   Scale="1"
+				   Aspect="AspectFill"/>
+      <StackLayout Padding="10,10,10,0">
+        <Grid HeightRequest="150">
+          <Grid Style="{DynamicResource TitleBox}" >
+            <StackLayout >
+              <Label Text="{translate:Translate AppDescription}" Style="{DynamicResource TitleStyle}"></Label>
+              <Label Text="{Binding LastUpdate}" Style="{DynamicResource TitleStyleSmall}" x:Name="LastUpdateLabel"></Label>
+            </StackLayout>
+          </Grid>
+        </Grid>
+        <ListView ItemsSource="{Binding .}"
+						  SeparatorVisibility="None"
+						  BackgroundColor="Transparent"
+						  SeparatorColor="#DFDFDF"
+						  HasUnevenRows="false"
+						  RowHeight="160"
+              ItemTapped="OnItemTapped" >
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                <views:RestaurantItem  />
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+    </Grid>
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>地址</value>
+    <comment>Address of the restuarant</comment>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>圣布莱恩最美味的菜肴</value>
+    <comment>Description of the app</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>岛屿菜单</value>
+    <comment>Name of the app</comment>
+  </data>
+  <data name="EUR" xml:space="preserve">
+    <value>欧元</value>
+    <comment>Abbreviation for Euros €</comment>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>菜单</value>
+    <comment>The menu items</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名字</value>
+    <comment>Name of the restaurant</comment>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>电话</value>
+    <comment>Phone number of the restaurant</comment>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>单价</value>
+    <comment>Price of the menu item</comment>
+  </data>
+  <data name="RMB" xml:space="preserve">
+    <value>人民币</value>
+    <comment>Abbreviation for Chinese Yuan ¥</comment>
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>市镇</value>
+    <comment>Town of the restaurant</comment>
+  </data>
+  <data name="USD" xml:space="preserve">
+    <value>美元</value>
+    <comment>Abbreviation for US Dollars $</comment>
+  </data>
+  <data name="LastUpdate" xml:space="preserve">
+    <value>上次更新时间 {0}</value>
+    <comment>Parameterized string for displaying update timestamp</comment>
+  </data>
+</root>

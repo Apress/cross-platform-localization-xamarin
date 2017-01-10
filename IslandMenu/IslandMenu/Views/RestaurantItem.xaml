@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:translate="clr-namespace:IslandMenu.Resources;assembly=IslandMenu"
+             x:Class="IslandMenu.Views.RestaurantItem">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <translate:ImageResourceConverter x:Key="imageResourceCvt" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <ContentView.Content>
+    <StackLayout Spacing="0" Padding="0">
+      <Grid Style="{DynamicResource CardStyle}">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="90"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="5"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Column="0" Source="{Binding Photo, Converter={StaticResource imageResourceCvt}}"/>
+        <StackLayout Grid.Column="1" Spacing="0" Padding="0,5">
+          <Label Text="{Binding Name}" Style="{DynamicResource NameStyle}"/>
+          <Grid>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Text="{translate:Translate Address}" Style="{DynamicResource MessageLabelStyle}" Grid.Row="0" Grid.Column="0"/>
+            <Label Text="{Binding Address1}" Style="{DynamicResource DepartmentStyle}" Grid.Row="0" Grid.Column="1"/>
+            <Label Text="{translate:Translate Town}" Style="{DynamicResource MessageLabelStyle}" Grid.Row="1" Grid.Column="0"/>
+            <Label Text="{Binding Town}" Style="{DynamicResource DepartmentStyle}" Grid.Row="1" Grid.Column="1"/>
+          </Grid>
+        </StackLayout>
+      </Grid>
+
+      <BoxView BackgroundColor="Black" HeightRequest="0.5"></BoxView>
+
+      <Grid Style="{DynamicResource MessageBox}">
+        <StackLayout Orientation="Horizontal">
+          <Label Text="{translate:Translate Phone}" Style="{DynamicResource MessageLabelStyle}" />
+          <Label Text="{Binding PhoneNumber}" HorizontalOptions="FillAndExpand" BackgroundColor="#33ffffff" ></Label>
+        </StackLayout>
+      </Grid>
+
+      <BoxView Style="{DynamicResource ShadowStyle}"></BoxView>
+    </StackLayout>
+
+  </ContentView.Content>
+</ContentView>

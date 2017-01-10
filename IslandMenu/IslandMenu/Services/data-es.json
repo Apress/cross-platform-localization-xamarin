@@ -1,0 +1,223 @@
+﻿[
+  {
+    "ID": 1,
+    "Name": "First Chance Pizza (Pizza Primera Chance)",
+    "Address1": "421 Cami de Sant Esteban",
+    "Address2": null,
+    "Town": "Carlyle",
+    "PhoneNumber": "+70 971 24 13 55",
+    "Fax": "+70 971 24 13 58",
+    "Photo": "firstchancepizza.jpg",
+    "Menu": [
+      {
+        "Name": "Classic Pizza (Pizza Clásica)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Pizza clásica, al estilo estadounidense",
+        "PriceInEuros": 6.1
+      },
+      {
+        "Name": "White Pizza (Pizza blanca)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Sin salsa - con el doble de queso",
+        "PriceInEuros": 5.1
+      },
+      {
+        "Name": "First Chance Pizza (Pizza Primera Chance)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Nuestra pizza insignia, preparada con ingredientes locales",
+        "PriceInEuros": 12.20
+      },
+      {
+        "Name": "Meat Lovers Pizza (Pizza Amantes de la Carne)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Pizza con albóndigas y salchichas de carne, hechas con ganado de la región",
+        "PriceInEuros": 10.50
+      },
+      {
+        "Name": "Margarita",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Tomate, orégano y queso mozzarella",
+        "PriceInEuros": 5.70
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Club Continental",
+    "Address1": "Av. del Port de Sant Brian",
+    "Address2": null,
+    "Town": "Port de St Brian",
+    "PhoneNumber": "+70 971 32 16 70",
+    "Fax": null,
+    "Photo": "clubcontinental.jpg",
+    "Menu": [
+      {
+        "Name": "Club Continental",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Nuestro sándwich insignia. El club clásico, hecho a la perfección",
+        "PriceInEuros": 8.0
+      },
+      {
+        "Name": "Soup of the day (Sopa del Día)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Sopa del Día",
+        "PriceInEuros": 6.0
+      },
+      {
+        "Name": "Carne Salada",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "El mejor sándwich de rosbif en el planeta",
+        "PriceInEuros": 10.5
+      },
+      {
+        "Name": "Grilled Prawns (Langostinos a la Parrilla)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Langostinos de la región preparados a la parrilla y sazonados en arroz",
+        "PriceInEuros": 18.50
+      },
+      {
+        "Name": "Grilled veal (Ternera a la Parrilla)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "La carne de ternera más tierna, preparada a la parrilla y servida con una ensalada de verduras",
+        "PriceInEuros": 21.70
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Restaurante Boom Boom",
+    "Address1": "31 Carrer Carreró",
+    "Address2": null,
+    "Town": "Son Bou",
+    "PhoneNumber": "+70 971 61 24 98",
+    "Fax": null,
+    "Photo": "restauranteboomboom.jpg",
+    "Menu": [
+      {
+        "Name": "Chicken Pakora (Pollo Pakora)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Trozos de pollo con hierbas y especias fritas en harina",
+        "PriceInEuros": 4.5
+      },
+      {
+        "Name": "Shrimp Puree (Puré de Langostinos)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Langostinos en una salsa espesa servidos sobre un pan frito indio",
+        "PriceInEuros": 6.9
+      },
+      {
+        "Name": "Shami Kebab",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Carne picada de cordero con hierbas y especias frita con huevo",
+        "PriceInEuros": 6.5
+      },
+      {
+        "Name": "Chicken Chat Puree (Pollo Chat)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Pollo marinado cocinado con tomate y pepino, servido en un pan frito indio",
+        "PriceInEuros": 5.90
+      },
+      {
+        "Name": "Mixed Platter (Plato Mixto)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Plato Mixto",
+        "PriceInEuros": 18.80
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Seamarket Stefan (Mercado Marino Stefan)",
+    "Address1": "6 Cami Unión",
+    "Address2": null,
+    "Town": "Porreres",
+    "PhoneNumber": "+70 971 71 74 05",
+    "Fax": null,
+    "Photo": "seamarketstefan.jpg",
+    "Menu": [
+      {
+        "Name": "Lobster Stew (Estofado de Langostas)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Langostas al vapor con crema y especias",
+        "PriceInEuros": 20.5
+      },
+      {
+        "Name": "Monkfish & clams casserole (Cacerola de Rape y Almejas)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Pez Rape cocido al horno con almejas y salchichas Merguez",
+        "PriceInEuros": 20.0
+      },
+      {
+        "Name": "Rice with fish and mariscoa (Arroz con Pescado y Mariscos)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Ésta deliciosa especialidad española combina el gran sabor de la comida marina con arroz delicadamente sazonado",
+        "PriceInEuros": 16.5
+      },
+      {
+        "Name": "Rice with lobster (Langosta con Arroz)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Langostas de la región preparadas con arroz sazonado",
+        "PriceInEuros": 5.90
+      }
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Last Chance Bar & Grill (Bar y Parrilla Última Chance)",
+    "Address1": "9 Carrer Ercilia",
+    "Address2": null,
+    "Town": "Son Bou",
+    "PhoneNumber": "+70 971 29 92 05",
+    "Fax": null,
+    "Photo": "lastchancebarandgrill.jpg",
+    "Menu": [
+      {
+        "Name": "Burritos",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Mini-burritos con salsa ranchera",
+        "PriceInEuros": 7.0
+      },
+      {
+        "Name": "Last Chance Breakfast (Desayuno Última Chance)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Tostadas con aguacate y huevos escalfados",
+        "PriceInEuros": 7.0
+      },
+      {
+        "Name": "Spanish Omelette (Tortilla Española)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Nuestra propia versión del omelette, servido con brochetas",
+        "PriceInEuros": 6.0
+      },
+      {
+        "Name": "Panqueques",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Panqueques",
+        "PriceInEuros": 5.90
+      }
+    ]
+  }
+]

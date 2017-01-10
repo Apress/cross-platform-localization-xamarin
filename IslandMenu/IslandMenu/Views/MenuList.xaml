@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:IslandMenu.Views;assembly=IslandMenu"
+             xmlns:translate="clr-namespace:IslandMenu.Resources;assembly=IslandMenu"
+             x:Class="IslandMenu.Views.MenuList">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <translate:ImageResourceConverter x:Key="imageResourceCvt" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <ContentPage.Content>
+    <Grid>
+      <StackLayout Padding="10,10,10,10">
+        <Grid HeightRequest="200">
+          <Image Opacity="0.75"
+               x:Name="img1"
+				       Source="{Binding Photo, Converter={StaticResource imageResourceCvt}}"
+               Scale="1"
+               Aspect="AspectFill"/>
+          <Grid Style="{DynamicResource TitleBox}">
+            <StackLayout Spacing="1">
+              <Label Text="{Binding Name}" Style="{DynamicResource TitleStyle}"></Label>
+              <Label Text="{Binding Address1}" Style="{DynamicResource TitleStyleSmall}"></Label>
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label Text="{Binding Town}" Style="{DynamicResource TitleStyleSmall}"></Label>
+                <Label Text="{Binding PhoneNumber}" Style="{DynamicResource TitleStyleSmall}" HorizontalOptions="EndAndExpand"></Label>
+              </StackLayout>
+            </StackLayout>
+          </Grid>
+        </Grid>
+
+        <ListView ItemsSource="{Binding Menu}"
+						  SeparatorVisibility="None"
+						  BackgroundColor="Transparent"
+						  SeparatorColor="#DFDFDF"
+						  HasUnevenRows="True"
+						  RowHeight="100">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell BindingContextChanged="OnBindingContextChanged">
+                <views:MenuListItem  />
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+    </Grid>
+  </ContentPage.Content>
+</ContentPage>

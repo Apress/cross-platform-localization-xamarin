@@ -1,0 +1,223 @@
+﻿[
+  {
+    "ID": 1,
+    "Name": "First Chance Pizza",
+    "Address1": "421 Cami de Sant Esteban",
+    "Address2": null,
+    "Town": "Carlyle",
+    "PhoneNumber": "+70 971 24 13 55",
+    "Fax": "+70 971 24 13 58",
+    "Photo": "firstchancepizza.jpg",
+    "Menu": [
+      {
+        "Name": "Pizza Classic",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Pizza, auf die klassische Art, wie sie in den USA gemacht wird",
+        "PriceInEuros": 6.1
+      },
+      {
+        "Name": "Weiße Pizza",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Ohne Sauce - doppelt so viel Käse",
+        "PriceInEuros": 5.1
+      },
+      {
+        "Name": "First Chance Pizza",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Unsere hauseigene Spezialität, mit heimischen Zutaten gemacht",
+        "PriceInEuros": 12.20
+      },
+      {
+        "Name": "Pizza für Fleischliebhaber",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Pizza mit Fleischbällchen und Wurst aus regionaler Rinderzucht",
+        "PriceInEuros": 10.50
+      },
+      {
+        "Name": "Margarita",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Tomaten, Oregano und Mozzarella",
+        "PriceInEuros": 5.70
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Club Continental",
+    "Address1": "Av. del Port de Sant Brian",
+    "Address2": null,
+    "Town": "Port de St Brian",
+    "PhoneNumber": "+70 971 32 16 70",
+    "Fax": null,
+    "Photo": "clubcontinental.jpg",
+    "Menu": [
+      {
+        "Name": "Club Continental",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Unsere hauseigene Spezialität. Ein klassisches Clubsandwich, perfekt gemacht",
+        "PriceInEuros": 8.0
+      },
+      {
+        "Name": "Tagessuppe",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Hausgemachte Suppe mit Fang des Tages",
+        "PriceInEuros": 6.0
+      },
+      {
+        "Name": "Fleisch und Salat",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Das beste Roastbeefsandwich der Erde",
+        "PriceInEuros": 10.5
+      },
+      {
+        "Name": "Gegrillte Garnelen",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Regional gefangene Garnelen, gegrillt und gwürzt auf Reis",
+        "PriceInEuros": 18.50
+      },
+      {
+        "Name": "Gegrilltes Kalb",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Das zarteste gegrillte Kalbsfleisch, serviert mit Gartensalat",
+        "PriceInEuros": 21.70
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Restaurante Boom Boom",
+    "Address1": "31 Carrer Carreró",
+    "Address2": null,
+    "Town": "Son Bou",
+    "PhoneNumber": "+70 971 61 24 98",
+    "Fax": null,
+    "Photo": "restauranteboomboom.jpg",
+    "Menu": [
+      {
+        "Name": "Hühnchen Pakora",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Hühnchenstücke mit Kräutern und Gewürzen in Mehlschwitze",
+        "PriceInEuros": 4.5
+      },
+      {
+        "Name": "Krabbenpuree",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Krabben in dicker Sauce auf gebratenem, flachen indischem Brot",
+        "PriceInEuros": 6.9
+      },
+      {
+        "Name": "Shami Kebab",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Gwürfeltes Lamm mit Kräutern und Gewürzen in Teig gebacken mit Ei",
+        "PriceInEuros": 6.5
+      },
+      {
+        "Name": "Hühnchen Chat Puree",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Mariniertes Huhn mit Tomaten und Gurken gekocht auf gebratenem, flachen indischem Brot",
+        "PriceInEuros": 5.90
+      },
+      {
+        "Name": "Gemischte Platte",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Eine Auswahl aus allen unserer Vorspeisen für 4 Personen",
+        "PriceInEuros": 18.80
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Seamarket Stefan",
+    "Address1": "6 Cami Unión",
+    "Address2": null,
+    "Town": "Porreres",
+    "PhoneNumber": "+70 971 71 74 05",
+    "Fax": null,
+    "Photo": "seamarketstefan.jpg",
+    "Menu": [
+      {
+        "Name": "Hummereintopf",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Gedünsteter Hummer in Sahne und Gewürzen",
+        "PriceInEuros": 20.5
+      },
+      {
+        "Name": "Seeteufel- und Muschelauflauf",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Ofengerösteter Seeteufel mit Muscheln und Merguezwurst",
+        "PriceInEuros": 20.0
+      },
+      {
+        "Name": "Reis mit Fisch und Mariscoa",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Diese köstliche spanische Spezialität kombiniert den besten Geschmack von Meeresfrüchten mit delikat gewürztem Reis",
+        "PriceInEuros": 16.5
+      },
+      {
+        "Name": "Reis mit Hummer",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Regional gefangener Hummer auf gewürztem Reis serviert",
+        "PriceInEuros": 5.90
+      }
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Last Chance Bar & Grill",
+    "Address1": "9 Carrer Ercilia",
+    "Address2": null,
+    "Town": "Son Bou",
+    "PhoneNumber": "+70 971 29 92 05",
+    "Fax": null,
+    "Photo": "lastchancebarandgrill.jpg",
+    "Menu": [
+      {
+        "Name": "Burritos",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Kleine Burritos in Rancherosoße",
+        "PriceInEuros": 7.0
+      },
+      {
+        "Name": "Last Chance Frühstück",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Toast mit Avocado und pochiertem Ei",
+        "PriceInEuros": 7.0
+      },
+      {
+        "Name": "Spanisches Omelett",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Unsere Version dieses Omeletts, auf Spießen serviert",
+        "PriceInEuros": 6.0
+      },
+      {
+        "Name": "Pfannkuchen",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Eine große Portion mit Butterahornsirup",
+        "PriceInEuros": 5.90
+      }
+    ]
+  }
+]

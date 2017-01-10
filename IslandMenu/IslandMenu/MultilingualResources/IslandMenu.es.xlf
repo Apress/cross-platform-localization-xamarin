@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="es" original="ISLANDMENU/RESOURCES/ISLANDMENU.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="ISLANDMENU/RESOURCES/ISLANDMENU.RESX" datatype="resx">
+        <trans-unit id="Address" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <target state="final">Dirección</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Address of the restuarant</note>
+        </trans-unit>
+        <trans-unit id="AppDescription" translate="yes" xml:space="preserve">
+          <source>The best meals on St Brian</source>
+          <target state="final">Las mejores comidas en San Brian</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Description of the app</note>
+        </trans-unit>
+        <trans-unit id="AppName" translate="yes" xml:space="preserve">
+          <source>Island Menu</source>
+          <target state="final">El Menú de la Isla</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Name of the app</note>
+        </trans-unit>
+        <trans-unit id="EUR" translate="yes" xml:space="preserve">
+          <source>EUR</source>
+          <target state="final">EUR</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Abbreviation for Euros €</note>
+        </trans-unit>
+        <trans-unit id="Menu" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="final">Menú</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">The menu items</note>
+        </trans-unit>
+        <trans-unit id="Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="final">Nombre</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Name of the restaurant</note>
+        </trans-unit>
+        <trans-unit id="Phone" translate="yes" xml:space="preserve">
+          <source>Phone</source>
+          <target state="final">Teléfono</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Phone number of the restaurant</note>
+        </trans-unit>
+        <trans-unit id="Price" translate="yes" xml:space="preserve">
+          <source>Price</source>
+          <target state="final">Precio</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Price of the menu item</note>
+        </trans-unit>
+        <trans-unit id="RMB" translate="yes" xml:space="preserve">
+          <source>RMB</source>
+          <target state="final">RMB</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Abbreviation for Chinese Yuan ¥</note>
+        </trans-unit>
+        <trans-unit id="Town" translate="yes" xml:space="preserve">
+          <source>Town</source>
+          <target state="final">Ciudad</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Town of the restaurant</note>
+        </trans-unit>
+        <trans-unit id="USD" translate="yes" xml:space="preserve">
+          <source>USD</source>
+          <target state="final">USD</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Abbreviation for US Dollars $</note>
+        </trans-unit>
+        <trans-unit id="LastUpdate" translate="yes" xml:space="preserve">
+          <source>Last updated on {0}</source>
+          <target state="translated">Última actualización el {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Parameterized string for displaying update timestamp</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

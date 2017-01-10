@@ -1,0 +1,223 @@
+﻿[
+  {
+    "ID": 1,
+    "Name": "First Chance Pizza (首次机会披萨)",
+    "Address1": "421 Cami de Sant Esteban",
+    "Address2": null,
+    "Town": "Carlyle",
+    "PhoneNumber": "+70 971 24 13 55",
+    "Fax": "+70 971 24 13 58",
+    "Photo": "firstchancepizza.jpg",
+    "Menu": [
+      {
+        "Name": "Classic Pizza (正宗披萨)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "正宗披萨，在美国吃到的口味完全一致",
+        "PriceInEuros": 6.1
+      },
+      {
+        "Name": "White Pizza (白色披萨)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "不加酱 - 双份芝士",
+        "PriceInEuros": 5.1
+      },
+      {
+        "Name": "First Chance Pizza (首次机会披萨)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "我们的特色披萨，运用本地特有佐料制作",
+        "PriceInEuros": 12.20
+      },
+      {
+        "Name": "Meat Lovers Pizza (肉食者之爱披萨)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "本地养殖家畜制作的肉丸和香肠",
+        "PriceInEuros": 10.50
+      },
+      {
+        "Name": "Margarita (玛格丽特)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "番茄、披萨草和马苏里拉芝士",
+        "PriceInEuros": 5.70
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Club Continental (大陆式俱乐部)",
+    "Address1": "Av. del Port de Sant Brian",
+    "Address2": null,
+    "Town": "Port de St Brian",
+    "PhoneNumber": "+70 971 32 16 70",
+    "Fax": null,
+    "Photo": "clubcontinental.jpg",
+    "Menu": [
+      {
+        "Name": "Club Continental (大陆式俱乐部)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "我们的特色三明治.  正宗俱乐部，制作完美",
+        "PriceInEuros": 8.0
+      },
+      {
+        "Name": "Soup of the day (今日推荐的汤)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "现捕鲜鱼制汤",
+        "PriceInEuros": 6.0
+      },
+      {
+        "Name": "Carne Salada (撒拉达肉)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "全球最美味的烤牛肉三明治",
+        "PriceInEuros": 10.5
+      },
+      {
+        "Name": "Grilled Prawns (烤虾)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "本地鲜烤虾加米饭",
+        "PriceInEuros": 18.50
+      },
+      {
+        "Name": "Grilled veal (铁扒牛犊)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "鲜嫩靠牛犊加田园沙拉",
+        "PriceInEuros": 21.70
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Restaurante Boom Boom (隆隆餐厅)",
+    "Address1": "31 Carrer Carreró",
+    "Address2": null,
+    "Town": "Son Bou",
+    "PhoneNumber": "+70 971 61 24 98",
+    "Fax": null,
+    "Photo": "restauranteboomboom.jpg",
+    "Menu": [
+      {
+        "Name": "Chicken Pakora (香炸鸡块)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "香草香料面粉炸鸡",
+        "PriceInEuros": 4.5
+      },
+      {
+        "Name": "Shrimp Puree (鲜虾浓汤)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "浓酱鲜虾盖印度式面包",
+        "PriceInEuros": 6.9
+      },
+      {
+        "Name": "Shami Kebab (鲜虾浓汤)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "香草羊肉末炸裹蛋稀面",
+        "PriceInEuros": 6.5
+      },
+      {
+        "Name": "Chicken Chat Puree (鸡块汁)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "西红柿黄瓜腌制鸡肉盖印度式面包",
+        "PriceInEuros": 5.90
+      },
+      {
+        "Name": "Mixed Platter (混合拼盘)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "四个人吃饱的精选开胃小吃",
+        "PriceInEuros": 18.80
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Seamarket Stefan (斯特凡海鲜店)",
+    "Address1": "6 Cami Unión",
+    "Address2": null,
+    "Town": "Porreres",
+    "PhoneNumber": "+70 971 71 74 05",
+    "Fax": null,
+    "Photo": "seamarketstefan.jpg",
+    "Menu": [
+      {
+        "Name": "Lobster Stew (焖龙虾)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "香料乳脂蒸龙虾",
+        "PriceInEuros": 20.5
+      },
+      {
+        "Name": "Monkfish & clams casserole (烤安康鱼蛤蜊盘)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "炉烤安康鱼配蛤蜊和羊羔肉香肠",
+        "PriceInEuros": 20.0
+      },
+      {
+        "Name": "Rice with fish and mariscoa (马里斯科鱼烩饭)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "这是西班牙的美味特色海鲜配米饭",
+        "PriceInEuros": 16.5
+      },
+      {
+        "Name": "Rice with lobster (龙虾配米饭)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "本地捕龙虾配米饭",
+        "PriceInEuros": 5.90
+      }
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Last Chance Bar & Grill (最后机会酒吧烧烤)",
+    "Address1": "9 Carrer Ercilia",
+    "Address2": null,
+    "Town": "Son Bou",
+    "PhoneNumber": "+70 971 29 92 05",
+    "Fax": null,
+    "Photo": "lastchancebarandgrill.jpg",
+    "Menu": [
+      {
+        "Name": "Burritos (墨西哥卷饼)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "墨西哥迷你卷饼加香辣番茄酱",
+        "PriceInEuros": 7.0
+      },
+      {
+        "Name": "Last Chance Breakfast (最后机会早餐)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "牛油果水煮嫩蛋吐司",
+        "PriceInEuros": 7.0
+      },
+      {
+        "Name": "Spanish Omelette (西班牙式摊鸡蛋)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "我们的特色摊鸡蛋串",
+        "PriceInEuros": 6.0
+      },
+      {
+        "Name": "Pancakes (松饼)",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "黄油枫糖浆松饼叠",
+        "PriceInEuros": 5.90
+      }
+    ]
+  }
+]

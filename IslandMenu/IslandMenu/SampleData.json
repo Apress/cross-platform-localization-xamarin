@@ -1,0 +1,99 @@
+﻿{
+  "MenuListItem.xaml": {
+    "Name": "Classic Pizza",
+    "CategoryId": 1,
+    "Language": null,
+    "Description": "Classic pizza, the way you get it in the USA Classic pizza, the way you get it in the USA",
+    "PriceInEuros": 13.5
+  },
+
+  "MenuList.xaml": {
+    "Name": "First Chance Pizza",
+    "Address1": "15 Sea Hawk Plaza",
+    "Town": "Carlyle",
+    "PhoneNumber": "+70 971 24 13 55",
+    "Menu": [
+      {
+        "Name": "Classic Pizza",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Classic pizza, the way you get it in the USA Classic pizza, the way you get it in the USA Classic pizza, the way you get it in the USA",
+        "PriceInEuros": 13.5
+      },
+      {
+        "Name": "White Pizza",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "No sauce - twice the cheese",
+        "PriceInEuros": 12.5
+      },
+      {
+        "Name": "First Chance Pizza",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Our signature pizza, made with all local ingredients Our signature pizza, made with all local ingredients Our signature pizza, made with all local ingredients",
+        "PriceInEuros": 20.5
+      },
+      {
+        "Name": "Meat Lovers Pizza",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Pizza with meatballs and sausage from locally raised cattle",
+        "PriceInEuros": 18.5
+      },
+      {
+        "Name": "Sea Pizza",
+        "CategoryId": 1,
+        "Language": null,
+        "Description": "Pizza with toppings from the catch of the day",
+        "PriceInEuros": 18.5
+      }
+    ]
+  },
+
+  "RestaurantItem.xaml": {
+    "Name": "First Chance Pizza",
+    "Address1": "15 Sea Hawk Plaza",
+    "Town": "Carlyle",
+    "PhoneNumber": "+70 971 24 13 55",
+    "Photo": "firstchancepizza.jpg"
+  },
+
+  "RestaurantList.xaml": [
+    {
+      "Name": "First Chance Pizza",
+      "Address1": "15 Sea Hawk Plaza",
+      "Town": "Carlyle",
+      "PhoneNumber": "+70 971 24 13 55",
+      "Photo": "firstchancepizza.jpg"
+    },
+    {
+      "Name": "Club Continental",
+      "Address1": "76B Heron Rd",
+      "Town": "Port of St Brian",
+      "PhoneNumber": "+70 971 32 16 70",
+      "Photo": "clubcontinental.jpg"
+    },
+    {
+      "Name": "Restaurante Boom Boom",
+      "Address1": "Last Place",
+      "Town": "Port of St Brian",
+      "PhoneNumber": "+70 971 61 24 98",
+      "Photo": "restauranteboomboom.jpg"
+    },
+    {
+      "Name": "Seamarket Stefan",
+      "Address1": "Last Place",
+      "Town": "Port of St Brian",
+      "PhoneNumber": "+70 971 61 24 98",
+      "Photo": "seamarketstefan.jpg"
+    },
+    {
+      "Name": "Last Chance Bar & Grill",
+      "Address1": "Last Place",
+      "Town": "Port of St Brian",
+      "PhoneNumber": "+70 971 61 24 98",
+      "Photo": "lastchancebarandgrill.jpg"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>Dirección</value>
+    <comment>Address of the restuarant</comment>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Las mejores comidas en San Brian</value>
+    <comment>Description of the app</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>El Menú de la Isla</value>
+    <comment>Name of the app</comment>
+  </data>
+  <data name="EUR" xml:space="preserve">
+    <value>EUR</value>
+    <comment>Abbreviation for Euros €</comment>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menú</value>
+    <comment>The menu items</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>Name of the restaurant</comment>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Teléfono</value>
+    <comment>Phone number of the restaurant</comment>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Precio</value>
+    <comment>Price of the menu item</comment>
+  </data>
+  <data name="RMB" xml:space="preserve">
+    <value>RMB</value>
+    <comment>Abbreviation for Chinese Yuan ¥</comment>
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>Ciudad</value>
+    <comment>Town of the restaurant</comment>
+  </data>
+  <data name="USD" xml:space="preserve">
+    <value>USD</value>
+    <comment>Abbreviation for US Dollars $</comment>
+  </data>
+  <data name="LastUpdate" xml:space="preserve">
+    <value>Última actualización el {0}</value>
+    <comment>Parameterized string for displaying update timestamp</comment>
+  </data>
+</root>
